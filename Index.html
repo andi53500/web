@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="description"
+        content="Lo ultimo en moda 2024, busca y encuentra las mejores perendas para vertirte con confianza">
+    <meta name="title" content="UrbanGrace: Lo mejor de la moda 2024">
+    <meta name="author" content="Andrei Diaconu">
+    <meta name="keywords" content="moda, tendencias, estilo, Urban Grace, ropa, diseño, equipo de moda">
+
+    <meta property="og:title" content="Título Específico de la Página">
+    <meta property="og:description" content="Descripción específica de esta página.">
+    <meta property="og:image" content="../imagenes/imagen-especifica.png">
+    <meta property="og:url" content="URL_DE_TU_PAGINA">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="imagenes/logotipo.png" alt="imagenes" class="imagen">
+        <nav>
+            <ul class="lista">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="">Productos</a>
+                    <ul>
+                        <li><a href="ropaEstilos/streetWear.html">StreetWear</a></li>
+                        <li><a href="ropaEstilos/opiumStyle.html">Opium Style</a></li>
+                        <li><a href="../ropaEstilos/oldMoney.html">Old Money</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobrenosotros/sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="formularioContacta/crearCuenta.html">Crear Cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="titulos">
+        <h1>Último en Moda 2024</h1>
+        <h3>Vístete con Confianza</h3>
+    </div>
+    <div class="textoprincipal">
+        <p>En UrbanGrace, te mantenemos al tanto de las últimas tendencias en moda.
+            Nuestra misión es inspirarte con los estilos más frescos y vanguardistas que están marcando el ritmo
+            del
+            mundo de la moda.
+            Aquí encontrarás una selección curada de looks que destacan por su originalidad y elegancia, sin
+            necesidad
+            de comprar nada.
+        </p>
+        <hr>
+    </div>
+
+    <main>
+        <section>
+            <div class="fondo">
+                <img src="imagenes/fondo.png" alt="imagen">
+            </div>
+            <div class="boton">
+                <button class="textoboton" onclick="window.location.href='ropaEstilos/streetWear.html'">StreetWear
+                </button>
+            </div>
+            <div class="descripcionestilo">
+                <p>Descubre el estilo streetwear, donde la moda urbana se encuentra con la autenticidad. Inspirado en
+                    las
+                    calles
+                    de las grandes ciudades, nuestro streetwear combina comodidad y estilo, desde sudaderas y camisetas
+                    gráficas
+                    hasta zapatillas exclusivas y gorras. ¡Únete a la cultura urbana y expresa tu individualidad con
+                    nuestras
+                    piezas únicas!</p>
+                <hr>
+            </div>
+        </section>
+
+        <section>
+            <div class="fondo2">
+                <img src="imagenes/fondo2.png" alt="imagen">
+            </div>
+            <div class="boton">
+                <button class="textoboton" onclick="window.location.href='ropaEstilos/opiumStyle.html'">Opium
+                    Style</button>
+            </div>
+            <div class="descripcionestilo">
+                <p>Descubre el estilo Opium Style, donde la moda exótica se encuentra con la elegancia. Inspirado en la
+                    estética
+                    oriental y el lujo moderno, nuestro Opium Style combina materiales ricos y detalles intricados.
+                    Desde
+                    cortes
+                    audaces hasta colores intensos, cada prenda refleja un look sofisticado y enigmático. ¡Únete a la
+                    tendencia
+                    y expresa tu individualidad con nuestras piezas únicas!</p>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="fondo2">
+                <img src="imagenes/fondo3.png" alt="imagen">
+            </div>
+            <div class="boton">
+                <button class="textoboton" onclick="window.location.href='ropaEstilos/oldMoney.html'">Old Money</button>
+            </div>
+            <div class="descripcionestilo">
+                <p>Descubre el estilo Old Money Style, donde la tradición y la elegancia se unen. Inspirado en la
+                    sofisticación
+                    clásica y el buen gusto atemporal, nuestro Old Money Style combina tejidos de alta calidad y cortes
+                    refinados. Desde trajes perfectamente entallados hasta prendas de punto exquisitas, cada pieza
+                    refleja
+                    un
+                    aire de discreción y distinción. ¡Únete a la tendencia y muestra tu estilo con nuestras prendas
+                    icónicas!
+                </p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="contenedorFormulario">
+            <div class="formulario">
+                <form action="form.php" method="post">
+                    <label class="texto-formulario">Comentarios para nuevos estilos que se puedan implementar en un
+                        futuro</label>
+                    <textarea name="descripcion" id="nuevosestilos" rows="15" cols="100"
+                        placeholder="Escribe Aquí"></textarea>
+                    <input type="submit" name="subirOpinion" id="completar" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="texto-footer">&copy; Urbangrace. Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
